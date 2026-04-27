@@ -30,6 +30,11 @@
 - Keep reusable hardware helpers separate from game step definitions.
 - Keep alternate game/riddle sequences in separate files where practical.
 
+## Agent Guidance
+- Update this file when the user explicitly asks.
+- If the user shares information that seems important for future development, ask whether to add it here.
+- If a user request conflicts with this file, ask for clarification before changing code.
+
 ## Commands
 - Build: `pio run`
 - Test: `pio test`
