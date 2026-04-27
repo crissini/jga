@@ -9,6 +9,7 @@
 ## Hardware
 - Board: Arduino Nano / ATmega328.
 - Display: SSD1306 OLED connected via I2C.
+- Display libraries: `Adafruit_SSD1306` with `Adafruit_GFX`.
 - LEDs: 3 outputs on `A0`, `A1`, and `A2`.
 - Buttons: 4 inputs on `D7`, `D8`, `D9`, and `D10`.
 - Sound: beeper or sound module on `D2`.
