@@ -5,6 +5,13 @@
 
 namespace GameConfig {
 constexpr uint8_t BEEPER_PIN = 2; // D2
+constexpr bool BUZZER_ENABLED = false;
+
+constexpr uint8_t CABLE_PINS[] = {3, 4, 5, 6}; // D3-D6
+constexpr uint8_t BUTTON_PINS[] = {7, 8, 9, 10}; // D7-D10
+constexpr uint8_t LED_PINS[] = {A0, A1, A2};
+
+constexpr bool HARDWARE_TEST_MODE = true;
 
 constexpr uint8_t STARTING_LIVES = 3;
 constexpr uint8_t COUNTDOWN_SECONDS = 30;
